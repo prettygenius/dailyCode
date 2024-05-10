@@ -1,7 +1,10 @@
 
 function TodoInput() {
   return (
-    <div>TodoInput</div>
+    <header>
+      <input type="text" placeholder="Enter Todo..." />
+      <button>Add</button>
+    </header>
   )
 }
 

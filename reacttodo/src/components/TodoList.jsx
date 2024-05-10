@@ -1,7 +1,11 @@
 
 function TodoList() {
+
+  let todos = ['wash dishes', 'eat food', 'sleep in']
   return (
-    <div>TodoList</div>
+    <ul className="main">{todos.map((todo, todoIndex) => {
+      return <li className="todoItem" key={todo}>{todoIndex + 1}. {todo}</li>
+    })}</ul>
   )
 }
 
