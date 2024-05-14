@@ -1,13 +1,13 @@
-import TodoInput from "./components/TodoInput"
-import TodoList from "./components/TodoList"
-
+import './index.css'
+import TodoList from './components/TodoList'
 function App() {
   
 
   return (
     <>
-      <TodoInput />
       <TodoList />
+
+     
     </>
   )
 }
